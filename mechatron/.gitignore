@@ -1,9 +1,2 @@
-.DS_Store
-
-application/cache/*
-!application/cache/index.html
-!application/cache/.htaccess
-
-application/logs/*
-!application/logs/index.html
-!application/logs/.htaccess
+# Don't track content of these folders
+C:\xampp\htdocs\mrp\application\config\database.php

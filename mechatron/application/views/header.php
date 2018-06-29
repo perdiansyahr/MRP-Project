@@ -16,146 +16,149 @@
 
 <!-- Favicons -->
 
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{surl}assets/images/icons/apple-touch-icon-144-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="{surl}assets/images/icons/apple-touch-icon-114-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="{surl}assets/images/icons/apple-touch-icon-72-precomposed.png">
-<link rel="apple-touch-icon-precomposed" href="{surl}assets/images/icons/apple-touch-icon-57-precomposed.png">
-<link rel="shortcut icon" href="{surl}assets/images/icons/favicon.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo base_url();?>/assets/images/icons/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo base_url();?>/assets/images/icons/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo base_url();?>/assets/images/icons/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="<?php echo base_url();?>/assets/images/icons/apple-touch-icon-57-precomposed.png">
+<link rel="shortcut icon" href="<?php echo base_url();?>/assets/images/icons/favicon.png">
 
 
 
     <!-- HELPERS -->
 
-<link rel="stylesheet" type="text/css" href="{surl}assets/helpers/animate.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/helpers/backgrounds.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/helpers/boilerplate.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/helpers/border-radius.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/helpers/grid.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/helpers/page-transitions.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/helpers/spacing.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/helpers/typography.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/helpers/utils.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/helpers/colors.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/helpers/animate.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/helpers/backgrounds.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/helpers/boilerplate.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/helpers/border-radius.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/helpers/grid.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/helpers/page-transitions.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/helpers/spacing.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/helpers/typography.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/helpers/utils.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/helpers/colors.css">
 
 <!-- ELEMENTS -->
 
-<link rel="stylesheet" type="text/css" href="{surl}assets/elements/badges.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/elements/buttons.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/elements/content-box.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/elements/dashboard-box.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/elements/forms.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/elements/images.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/elements/info-box.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/elements/invoice.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/elements/loading-indicators.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/elements/menus.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/elements/panel-box.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/elements/response-messages.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/elements/responsive-tables.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/elements/ribbon.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/elements/social-box.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/elements/tables.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/elements/tile-box.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/elements/timeline.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/elements/badges.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/elements/buttons.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/elements/content-box.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/elements/dashboard-box.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/elements/forms.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/elements/images.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/elements/info-box.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/elements/invoice.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/elements/loading-indicators.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/elements/menus.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/elements/panel-box.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/elements/response-messages.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/elements/responsive-tables.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/elements/ribbon.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/elements/social-box.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/elements/tables.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/elements/tile-box.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/elements/timeline.css">
 
 <!-- ICONS -->
 
-<link rel="stylesheet" type="text/css" href="{surl}assets/icons/fontawesome/fontawesome.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/icons/linecons/linecons.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/icons/spinnericon/spinnericon.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/icons/fontawesome/fontawesome.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/icons/linecons/linecons.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/icons/spinnericon/spinnericon.css">
 
 
 <!-- WIDGETS -->
 
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/accordion-ui/accordion.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/calendar/calendar.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/carousel/carousel.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/accordion-ui/accordion.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/calendar/calendar.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/carousel/carousel.css">
 
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/charts/justgage/justgage.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/charts/morris/morris.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/charts/piegage/piegage.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/charts/xcharts/xcharts.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/charts/justgage/justgage.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/charts/morris/morris.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/charts/piegage/piegage.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/charts/xcharts/xcharts.css">
 
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/chosen/chosen.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/colorpicker/colorpicker.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/datatable/datatable.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/datepicker/datepicker.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/datepicker-ui/datepicker.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/daterangepicker/daterangepicker.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/dialog/dialog.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/dropdown/dropdown.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/dropzone/dropzone.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/file-input/fileinput.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/input-switch/inputswitch.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/input-switch/inputswitch-alt.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/ionrangeslider/ionrangeslider.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/jcrop/jcrop.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/jgrowl-notifications/jgrowl.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/loading-bar/loadingbar.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/maps/vector-maps/vectormaps.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/markdown/markdown.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/modal/modal.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/multi-select/multiselect.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/multi-upload/fileupload.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/nestable/nestable.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/noty-notifications/noty.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/popover/popover.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/pretty-photo/prettyphoto.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/progressbar/progressbar.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/range-slider/rangeslider.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/slidebars/slidebars.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/slider-ui/slider.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/summernote-wysiwyg/summernote-wysiwyg.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/tabs-ui/tabs.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/theme-switcher/themeswitcher.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/timepicker/timepicker.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/tocify/tocify.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/tooltip/tooltip.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/touchspin/touchspin.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/uniform/uniform.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/wizard/wizard.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/widgets/xeditable/xeditable.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/chosen/chosen.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/colorpicker/colorpicker.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/datatable/datatable.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/datepicker/datepicker.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/datepicker-ui/datepicker.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/daterangepicker/daterangepicker.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/dialog/dialog.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/dropdown/dropdown.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/dropzone/dropzone.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/file-input/fileinput.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/input-switch/inputswitch.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/input-switch/inputswitch-alt.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/ionrangeslider/ionrangeslider.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/jcrop/jcrop.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/jgrowl-notifications/jgrowl.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/loading-bar/loadingbar.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/maps/vector-maps/vectormaps.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/markdown/markdown.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/modal/modal.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/multi-select/multiselect.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/multi-upload/fileupload.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/nestable/nestable.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/noty-notifications/noty.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/popover/popover.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/pretty-photo/prettyphoto.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/progressbar/progressbar.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/range-slider/rangeslider.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/slidebars/slidebars.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/slider-ui/slider.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/summernote-wysiwyg/summernote-wysiwyg.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/tabs-ui/tabs.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/theme-switcher/themeswitcher.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/timepicker/timepicker.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/tocify/tocify.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/tooltip/tooltip.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/touchspin/touchspin.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/uniform/uniform.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/wizard/wizard.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/widgets/xeditable/xeditable.css">
 
 <!-- SNIPPETS -->
 
-<link rel="stylesheet" type="text/css" href="{surl}assets/snippets/chat.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/snippets/files-box.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/snippets/login-box.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/snippets/notification-box.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/snippets/progress-box.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/snippets/todo.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/snippets/user-profile.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/snippets/mobile-navigation.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/snippets/chat.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/snippets/files-box.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/snippets/login-box.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/snippets/notification-box.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/snippets/progress-box.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/snippets/todo.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/snippets/user-profile.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/snippets/mobile-navigation.css">
 
 <!-- APPLICATIONS -->
 
-<link rel="stylesheet" type="text/css" href="{surl}assets/applications/mailbox.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/applications/mailbox.css">
 
 <!-- Admin theme -->
 
-<link rel="stylesheet" type="text/css" href="{surl}assets/themes/admin/layout.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/themes/admin/color-schemes/default.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/themes/admin/layout.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/themes/admin/color-schemes/default.css">
 
 <!-- Components theme -->
 
-<link rel="stylesheet" type="text/css" href="{surl}assets/themes/components/default.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/themes/components/border-radius.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/themes/components/default.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/themes/components/border-radius.css">
 
 <!-- Admin responsive -->
 
-<link rel="stylesheet" type="text/css" href="{surl}assets/helpers/responsive-elements.css">
-<link rel="stylesheet" type="text/css" href="{surl}assets/helpers/admin-responsive.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/helpers/responsive-elements.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/helpers/admin-responsive.css">
+
+<!-- Bootstrap -->
+
 
     <!-- JS Core -->
 
-    <script type="text/javascript" src="{surl}assets/js-core/jquery-core.js"></script>
-    <script type="text/javascript" src="{surl}assets/js-core/jquery-ui-core.js"></script>
-    <script type="text/javascript" src="{surl}assets/js-core/jquery-ui-widget.js"></script>
-    <script type="text/javascript" src="{surl}assets/js-core/jquery-ui-mouse.js"></script>
-    <script type="text/javascript" src="{surl}assets/js-core/jquery-ui-position.js"></script>
-    <script type="text/javascript" src="{surl}assets/js-core/transition.js"></script>
-    <script type="text/javascript" src="{surl}assets/js-core/modernizr.js"></script>
-    <script type="text/javascript" src="{surl}assets/js-core/jquery-cookie.js"></script>
+    <script type="text/javascript" src="<?php echo base_url();?>/assets/js-core/jquery-core.js"></script>
+    <script type="text/javascript" src="<?php echo base_url();?>/assets/js-core/jquery-ui-core.js"></script>
+    <script type="text/javascript" src="<?php echo base_url();?>/assets/js-core/jquery-ui-widget.js"></script>
+    <script type="text/javascript" src="<?php echo base_url();?>/assets/js-core/jquery-ui-mouse.js"></script>
+    <script type="text/javascript" src="<?php echo base_url();?>/assets/js-core/jquery-ui-position.js"></script>
+    <script type="text/javascript" src="<?php echo base_url();?>/assets/js-core/transition.js"></script>
+    <script type="text/javascript" src="<?php echo base_url();?>/assets/js-core/modernizr.js"></script>
+    <script type="text/javascript" src="<?php echo base_url();?>/assets/js-core/jquery-cookie.js"></script>
 
 
 
@@ -183,7 +186,7 @@
             <ul class="chat-box">
                 <li>
                     <div class="status-badge">
-                        <img class="img-circle" width="40" src="{surl}assets/image-resources/people/testimonial1.jpg" alt="">
+                        <img class="img-circle" width="40" src="<?php echo base_url();?>/assets/image-resources/people/testimonial1.jpg" alt="">
                         <div class="small-badge bg-green"></div>
                     </div>
                     <b>
@@ -194,7 +197,7 @@
                 </li>
                 <li>
                     <div class="status-badge">
-                        <img class="img-circle" width="40" src="{surl}assets/image-resources/people/testimonial2.jpg" alt="">
+                        <img class="img-circle" width="40" src="<?php echo base_url();?>/assets/image-resources/people/testimonial2.jpg" alt="">
                         <div class="small-badge bg-green"></div>
                     </div>
                     <b>
@@ -205,7 +208,7 @@
                 </li>
                 <li>
                     <div class="status-badge">
-                        <img class="img-circle" width="40" src="{surl}assets/image-resources/people/testimonial3.jpg" alt="">
+                        <img class="img-circle" width="40" src="<?php echo base_url();?>/assets/image-resources/people/testimonial3.jpg" alt="">
                         <div class="small-badge bg-green"></div>
                     </div>
                     <b>
@@ -216,7 +219,7 @@
                 </li>
                 <li>
                     <div class="status-badge">
-                        <img class="img-circle" width="40" src="{surl}assets/image-resources/people/testimonial4.jpg" alt="">
+                        <img class="img-circle" width="40" src="<?php echo base_url();?>/assets/image-resources/people/testimonial4.jpg" alt="">
                         <div class="small-badge bg-green"></div>
                     </div>
                     <b>
@@ -227,7 +230,7 @@
                 </li>
                 <li>
                     <div class="status-badge">
-                        <img class="img-circle" width="40" src="{surl}assets/image-resources/people/testimonial5.jpg" alt="">
+                        <img class="img-circle" width="40" src="<?php echo base_url();?>/assets/image-resources/people/testimonial5.jpg" alt="">
                         <div class="small-badge bg-green"></div>
                     </div>
                     <b>
@@ -241,7 +244,7 @@
             <ul class="chat-box">
                 <li>
                     <div class="status-badge">
-                        <img class="img-circle" width="40" src="{surl}assets/image-resources/people/testimonial6.jpg" alt="">
+                        <img class="img-circle" width="40" src="<?php echo base_url();?>/assets/image-resources/people/testimonial6.jpg" alt="">
                         <div class="small-badge bg-orange"></div>
                     </div>
                     <b>
@@ -252,7 +255,7 @@
                 </li>
                 <li>
                     <div class="status-badge">
-                        <img class="img-circle" width="40" src="{surl}assets/image-resources/people/testimonial7.jpg" alt="">
+                        <img class="img-circle" width="40" src="<?php echo base_url();?>/assets/image-resources/people/testimonial7.jpg" alt="">
                         <div class="small-badge bg-orange"></div>
                     </div>
                     <b>
@@ -263,7 +266,7 @@
                 </li>
                 <li>
                     <div class="status-badge">
-                        <img class="img-circle" width="40" src="{surl}assets/image-resources/people/testimonial8.jpg" alt="">
+                        <img class="img-circle" width="40" src="<?php echo base_url();?>/assets/image-resources/people/testimonial8.jpg" alt="">
                         <div class="small-badge bg-orange"></div>
                     </div>
                     <b>
@@ -277,7 +280,7 @@
             <ul class="chat-box">
                 <li>
                     <div class="status-badge">
-                        <img class="img-circle" width="40" src="{surl}assets/image-resources/people/testimonial1.jpg" alt="">
+                        <img class="img-circle" width="40" src="<?php echo base_url();?>/assets/image-resources/people/testimonial1.jpg" alt="">
                         <div class="small-badge bg-red"></div>
                     </div>
                     <b>
@@ -288,7 +291,7 @@
                 </li>
                 <li>
                     <div class="status-badge">
-                        <img class="img-circle" width="40" src="{surl}assets/image-resources/people/testimonial2.jpg" alt="">
+                        <img class="img-circle" width="40" src="<?php echo base_url();?>/assets/image-resources/people/testimonial2.jpg" alt="">
                         <div class="small-badge bg-red"></div>
                     </div>
                     <b>
@@ -553,7 +556,7 @@
     <div id="header-nav-left">
         <div class="user-account-btn dropdown">
             <a href="#" title="My Account" class="user-profile clearfix" data-toggle="dropdown">
-                <img width="28" src="{surl}assets/image-resources/gravatar.jpg" alt="Profile image">
+                <img width="28" src="<?php echo base_url();?>/assets/image-resources/gravatar.jpg" alt="Profile image">
                 <span>Thomas Barnes</span>
                 <i class="glyph-icon icon-angle-down"></i>
             </a>
@@ -562,7 +565,7 @@
                     <div class="login-box clearfix">
                         <div class="user-img">
                             <a href="#" title="" class="change-img">Change photo</a>
-                            <img src="{surl}assets/image-resources/gravatar.jpg" alt="">
+                            <img src="<?php echo base_url();?>/assets/image-resources/gravatar.jpg" alt="">
                         </div>
                         <div class="user-info">
                             <span>
@@ -934,259 +937,4 @@
 
     </div><!-- #header-nav-right -->
 
-</div>
-        <div id="page-sidebar">
-    <div class="scroll-sidebar">
-        
-
-    <ul id="sidebar-menu">
-    <li class="header"><span>Overview</span></li>
-    <li>
-        <a href="index.html" title="Admin Dashboard">
-            <i class="glyph-icon icon-linecons-tv"></i>
-            <span>Admin dashboard</span>
-        </a>
-    </li>
-    <li class="divider"></li>
-    <li class="no-menu">
-        <a href="http://mechatron.co.id" title="Frontend template">
-            <i class="glyph-icon icon-linecons-beaker"></i>
-            <span>Frontend template</span>
-            <span class="bs-label label-danger">
-                NEW
-            </span>
-        </a>
-    </li>
-    <li class="header"><span>Components</span></li>
-    <li>
-        <a href="#" title="Elements">
-            <i class="glyph-icon icon-linecons-diamond"></i>
-            <span>Data Internal</span>
-        </a>
-        <div class="sidebar-submenu">
-
-            <ul>
-                <li><a href="http://localhost/mechatron/index.php/karyawan" title="Buttons"><span>Data Karyawan</span></a></li>
-                <li><a href="http://localhost/mechatron/index.php/posisi" title="Labels & Badges"><span>Posisi</span></a></li>
-                <li><a href="http://localhost/mechatron/index.php/status" title="Content boxes"><span>Status</span></a></li>
-            </ul>
-
-        </div><!-- .sidebar-submenu -->
-    </li>
-    <li>
-        <a href="#" title="Dashboard boxes">
-            <i class="glyph-icon icon-linecons-lightbulb"></i>
-            <span>Dashboard boxes</span>
-            <span class="bs-label label-primary">Hot</span>
-        </a>
-        <div class="sidebar-submenu">
-
-            <ul>
-                <li><a href="chart-boxes.html" title="Chart boxes"><span>Chart boxes</span></a></li>
-                <li><a href="tile-boxes.html" title="Tile boxes"><span>Tile boxes</span></a></li>
-                <li><a href="social-boxes.html" title="Social boxes"><span>Social boxes</span></a></li>
-                <li><a href="panel-boxes.html" title="Panel boxes"><span>Panel boxes</span></a></li>
-            </ul>
-
-        </div><!-- .sidebar-submenu -->
-    </li>
-    <li>
-        <a href="#" title="Widgets">
-            <i class="glyph-icon icon-linecons-wallet"></i>
-            <span>Widgets</span>
-        </a>
-        <div class="sidebar-submenu">
-
-            <ul>
-                <li><a href="tabs.html" title="Responsive tabs"><span>Responsive tabs</span></a></li>
-                <li><a href="collapsable.html" title="Collapsables"><span>Collapsable accordions</span></a></li>
-                <li><a href="bs-carousel.html" title="Bootstrap Carousel"><span>Bootstrap carousel</span></a></li>
-                <li><a href="calendar.html" title="Calendar"><span>Calendar</span></a></li>
-                <li><a href="scrollbars.html" title="Custom scrollbars"><span>Custom scrollbars</span></a></li>
-                <li><a href="modals.html" title="Modals"><span>Modals</span></a></li>
-                <li><a href="notifications.html" title="Notifications"><span>Notifications</span></a></li>
-                <li><a href="lazyload.html" title="Lazyload"><span>Lazyload</span></a></li>
-                <li><a href="loading-feedback.html" title="Loading feedback"><span>Loading feedback</span></a></li>
-                <li><a href="popovers-tooltips.html" title="Popovers & Tooltips"><span>Popovers & Tooltips</span></a></li>
-                <li><a href="progress-bars.html" title="Progress bars"><span>Progress bars</span></a></li>
-                <li><a href="sortable-elements.html" title="Sortable elements"><span>Sortable elements</span></a></li>
-            </ul>
-
-        </div><!-- .sidebar-submenu -->
-    </li>
-    <li>
-        <a href="#" title="Forms UI">
-            <i class="glyph-icon icon-linecons-eye"></i>
-            <span>Forms UI</span>
-        </a>
-        <div class="sidebar-submenu">
-
-            <ul>
-                <li><a href="forms-elements.html" title="Form elements"><span>Form elements</span></a></li>
-                <li><a href="forms-validation.html" title="Form validation"><span>Form validation</span></a></li>
-                <li><a href="pickers.html" title="Pickers"><span>Pickers</span></a></li>
-                <li><a href="sliders.html" title="Sliders"><span>Sliders</span></a></li>
-                <li><a href="forms-wizard.html" title="Form wizards"><span>Form wizards</span></a></li>
-                <li><a href="forms-masks.html" title="Form input masks"><span>Form input masks</span></a></li>
-                <li><a href="image-crop.html" title="Image crop"><span>Image crop</span></a></li>
-                <li><a href="dropzone-uploader.html" title="Dropzone uploader"><span>Dropzone uploader</span></a></li>
-                <li><a href="multi-uploader.html" title="Multi uploader"><span>Multi uploader</span></a></li>
-                <li><a href="input-knobs.html" title="Input knobs"><span>Input knobs</span></a></li>
-                <li><a href="ckeditor.html" title="Ckeditor"><span>Ckeditor</span></a></li>
-                <li><a href="summernote.html" title="Summernote"><span>Summernote</span></a></li>
-                <li><a href="markdown.html" title="Markdown editor"><span>Markdown editor</span></a></li>
-                <li><a href="inline-editor.html" title="Inline editor"><span>Inline editor</span></a></li>
-            </ul>
-
-        </div><!-- .sidebar-submenu -->
-    </li>
-    <li>
-        <a href="#" title="Advanced tables">
-            <i class="glyph-icon icon-linecons-megaphone"></i>
-            <span>Advanced tables</span>
-        </a>
-        <div class="sidebar-submenu">
-
-            <ul>
-                <li><a href="tables.html" title="Basic tables"><span>Basic tables</span></a></li>
-                <li><a href="responsive-tables.html" title="Responsive tables"><span>Responsive tables</span></a></li>
-                <li><a href="data-tables.html" title="Data tables"><span>Data tables</span></a></li>
-                <li><a href="advanced-datatables.html" title="Advanced data tables"><span>Advanced data tables</span></a></li>
-                <li><a href="fixed-datatables.html" title="Fixed data tables"><span>Fixed data tables</span></a></li>
-                <li><a href="responsive-datatables.html" title="Responsive data tables"><span>Responsive data tables</span></a></li>
-            </ul>
-
-        </div><!-- .sidebar-submenu -->
-    </li>
-    <li>
-        <a href="#" title="Charts">
-            <i class="glyph-icon icon-linecons-paper-plane"></i>
-            <span>Charts</span>
-        </a>
-        <div class="sidebar-submenu">
-
-            <ul>
-                <li><a href="flot-charts.html" title="Flot charts"><span>Flot charts</span></a></li>
-                <li><a href="sparklines.html" title="Sparklines"><span>Sparklines</span></a></li>
-                <li><a href="pie-gages.html" title="PieGages"><span>PieGages</span></a></li>
-                <li><a href="just-gage.html" title="justGage"><span>justGage</span></a></li>
-                <li><a href="morris-charts.html" title="Morris charts"><span>Morris charts</span></a></li>
-                <li><a href="xcharts.html" title="xCharts"><span>xCharts</span></a></li>
-                <li><a href="chart-js.html" title="Chart.js"><span>Chart.js</span></a></li>
-            </ul>
-
-        </div><!-- .sidebar-submenu -->
-    </li>
-    <li>
-        <a href="#" title="Maps">
-            <i class="glyph-icon icon-linecons-sound"></i>
-            <span>Maps</span>
-        </a>
-        <div class="sidebar-submenu">
-
-            <ul>
-                <li><a href="gmaps.html" title="gMaps"><span>gMaps</span></a></li>
-                <li><a href="vector-maps.html" title="Vector maps"><span>Vector maps</span></a></li>
-                <li><a href="mapael.html" title="Mapael"><span>Mapael</span></a></li>
-            </ul>
-
-        </div><!-- .sidebar-submenu -->
-    </li>
-    <li class="header"><span>Extra</span></li>
-    <li>
-        <a href="#" title="Pages">
-            <i class="glyph-icon icon-linecons-fire"></i>
-            <span>Pages</span>
-            <span class="bs-label badge-yellow">NEW</span>
-        </a>
-        <div class="sidebar-submenu">
-
-            <ul>
-                <li><a href="index-alt.html" title="Alternate dashboard"><span>Alternate dashboard</span></a></li>
-                <li><a href="view-profile.html" title="View profile"><span>View profile</span></a></li>
-                <li><a href="faq-section.html" title="FAQ section"><span>FAQ section</span></a></li>
-                <li><a href="auto-menu.html" title="Auto menu"><span>Auto menu</span></a></li>
-                <li><a href="invoice.html" title="Invoice"><span>Invoice</span></a></li>
-                <li><a href="admin-blog.html" title="Blog posts list"><span>Blog posts list</span></a></li>
-                <li><a href="admin-pricing.html" title="Pricing tables"><span>Pricing tables</span></a></li>
-                <li><a href="portfolio-gallery.html" title="Portfolio gallery"><span>Portfolio gallery</span></a></li>
-                <li><a href="portfolio-masonry.html" title="Portfolio masonry"><span>Portfolio masonry</span></a></li>
-                <li><a href="slidebars.html" title="Slidebars"><span>Slidebars</span></a></li>
-            </ul>
-
-        </div><!-- .sidebar-submenu -->
-    </li>
-    <li>
-        <a href="#" title="Other Pages">
-            <i class="glyph-icon icon-linecons-cup"></i>
-            <span>Other Pages</span>
-        </a>
-        <div class="sidebar-submenu">
-
-            <ul>
-                <li><a href="login-1.html" target="_blank" title="Login page 1"><span>Login page 1</span></a></li>
-                <li><a href="login-2.html" target="_blank" title="Login page 2"><span>Login page 2</span></a></li>
-                <li><a href="login-3.html" target="_blank" title="Login page 3"><span>Login page 3</span></a></li>
-                <li><a href="login-4.html" target="_blank" title="Login page 4"><span>Login page 4</span></a></li>
-                <li><a href="login-5.html" target="_blank" title="Login page 5"><span>Login page 5</span></a></li>
-                <li><a href="lockscreen-1.html" target="_blank" title="Lockscreen page 1"><span>Lockscreen page 1</span></a></li>
-                <li><a href="lockscreen-2.html" target="_blank" title="Lockscreen page 2"><span>Lockscreen page 2</span></a></li>
-                <li><a href="lockscreen-3.html" target="_blank" title="Lockscreen page 3"><span>Lockscreen page 3</span></a></li>
-                <li><a href="server-1.html" target="_blank" title="Server page 1"><span>Error 404 page</span></a></li>
-                <li><a href="server-2.html" target="_blank" title="Server page 2"><span>Error 404 alternate</span></a></li>
-                <li><a href="server-3.html" target="_blank" title="Server page 3"><span>Server 500 error</span></a></li>
-            </ul>
-
-        </div><!-- .sidebar-submenu -->
-    </li>
-    <li>
-        <a href="#" title="Mailbox">
-            <i class="glyph-icon icon-linecons-mail"></i>
-            <span>Mailbox</span>
-            <span class="bs-badge badge-danger">3</span>
-        </a>
-        <div class="sidebar-submenu">
-
-            <ul>
-                <li><a href="mailbox-inbox.html" title="Inbox"><span>Inbox</span></a></li>
-                <li><a href="mailbox-compose.html" title="Compose message"><span>Compose message</span></a></li>
-                <li><a href="mailbox-single.html" title="Single message"><span>Single message</span></a></li>
-            </ul>
-
-        </div><!-- .sidebar-submenu -->
-    </li>
-    <li>
-        <a href="#" title="Snippets">
-            <i class="glyph-icon icon-linecons-cd"></i>
-            <span>Snippets</span>
-        </a>
-        <div class="sidebar-submenu">
-
-            <ul>
-                <li><a href="timeline.html" title="Timeline"><span>Timeline</span></a></li>
-                <li><a href="chat.html" title="Chat"><span>Chat</span></a></li>
-                <li><a href="checklist.html" title="Checklist"><span>Checklist</span></a></li>
-            </ul>
-
-        </div><!-- .sidebar-submenu -->
-    </li>
-    <li>
-        <a href="#" title="Helpers">
-            <i class="glyph-icon icon-linecons-doc"></i>
-            <span>Helpers</span>
-        </a>
-        <div class="sidebar-submenu">
-
-            <ul>
-                <li><a href="helper-classes.html" title="Helper classes"><span>Helper classes</span></a></li>
-                <li><a href="page-transitions.html" title="Page transitions"><span>Page transitions</span></a></li>
-                <li><a href="animations.html" title="Animations"><span>Animations</span></a></li>
-            </ul>
-
-        </div><!-- .sidebar-submenu -->
-    </li>
-    </ul><!-- #sidebar-menu -->
-
-
-    </div>
 </div>
