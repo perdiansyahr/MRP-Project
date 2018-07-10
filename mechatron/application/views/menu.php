@@ -12,7 +12,7 @@
     </li>
     <li class="divider"></li>
     <li class="no-menu">
-        <a href="../frontend-template/index.html" title="Frontend template">
+        <a href="<?php echo base_url();?>index.php/maintenance" title="Frontend template">
             <i class="glyph-icon icon-linecons-beaker"></i>
             <span>Schedule</span>
            
@@ -26,37 +26,45 @@
         </a>
         <div class="sidebar-submenu">
             <ul>
-                <li><a href="<?php echo base_url();?>index.php/Profile" title="Profile"><span>Profile</span></a></li>
+                <li><a href="<?php echo base_url();?>index.php/karyawan" title="DataKaryawan"><span>Data Karyawan</span></a></li>
                
             </ul>
             <ul>
-                <li><a href="<?php echo base_url();?>index.php/posisi" title="Posisi"><span>Posisi</span></a></li>
+                <li><a href="<?php echo base_url();?>index.php/maintenance" title="Laporan"><span>Laporan Kerja</span></a></li>
                
             </ul>
             <ul>
-                <li><a href="<?php echo base_url();?>index.php/status" title="Status"><span>Status</span></a></li>
+                <li><a href="<?php echo base_url();?>index.php/absensi" title="Absen"><span>Absensi</span></a></li>
                
             </ul>
 
             <ul>
-                <li><a href="<?php echo base_url();?>index.php/karyawan" title="Karyawan"><span>Data Karyawan</span></a></li>
+                <li><a href="<?php echo base_url();?>index.php/maintenance" title="Gaji"><span>Gaji</span></a></li>
                
             </ul>
+
+            <ul>
+                <li><a href="<?php echo base_url();?>index.php/maintenance" title="Izin"><span>Izin</span></a></li>
+            </ul>
+
+            <ul>
+                <li><a href="<?php echo base_url();?>index.php/maintenance" ttitle="Training"><span>Training Karyawan</span></a></li>               
+            </ul>
+
 
         </div><!-- .sidebar-submenu -->
     </li>
     <li>
         <a href="#" title="Siswa">
             <i class="glyph-icon icon-linecons-lightbulb"></i>
-            <span>Siswa</span>
+            <span>Murid</span>
           <!--  <span class="bs-label label-primary">Hot</span> -->
         </a>
         <div class="sidebar-submenu">
 
             <ul>
-                <li><a href="chart-boxes.html" title="Chart boxes"><span>Data Sekolah</span></a></li>
-                <li><a href="tile-boxes.html" title="Tile boxes"><span>Data Siswa</span></a></li>
-            
+                <li><a href="<?php echo base_url();?>index.php/maintenance" title="Data Sekolah"><span>Data Sekolah</span></a></li>
+                <li><a href="<?php echo base_url();?>index.php/maintenance" title="Data Mechatron"><span>Data Mechatron</span></a></li>
             </ul>
 
         </div><!-- .sidebar-submenu -->
@@ -64,23 +72,12 @@
     <li>
         <a href="#" title="KBM">
             <i class="glyph-icon icon-linecons-wallet"></i>
-            <span>KBM</span>
+            <span>Kurikulum</span>
         </a>
         <div class="sidebar-submenu">
 
             <ul>
-                <li><a href="tabs.html" title="Responsive tabs"><span>Responsive tabs</span></a></li>
-                <li><a href="collapsable.html" title="Collapsables"><span>Collapsable accordions</span></a></li>
-                <li><a href="bs-carousel.html" title="Bootstrap Carousel"><span>Bootstrap carousel</span></a></li>
-                <li><a href="calendar.html" title="Calendar"><span>Calendar</span></a></li>
-                <li><a href="scrollbars.html" title="Custom scrollbars"><span>Custom scrollbars</span></a></li>
-                <li><a href="modals.html" title="Modals"><span>Modals</span></a></li>
-                <li><a href="notifications.html" title="Notifications"><span>Notifications</span></a></li>
-                <li><a href="lazyload.html" title="Lazyload"><span>Lazyload</span></a></li>
-                <li><a href="loading-feedback.html" title="Loading feedback"><span>Loading feedback</span></a></li>
-                <li><a href="popovers-tooltips.html" title="Popovers & Tooltips"><span>Popovers & Tooltips</span></a></li>
-                <li><a href="progress-bars.html" title="Progress bars"><span>Progress bars</span></a></li>
-                <li><a href="sortable-elements.html" title="Sortable elements"><span>Sortable elements</span></a></li>
+                <li><a href="<?php echo base_url();?>index.php/maintenance" title="Responsive tabs"><span>Level</span></a></li>
             </ul>
 
         </div><!-- .sidebar-submenu -->
@@ -88,25 +85,13 @@
     <li>
         <a href="#" title="Forms UI">
             <i class="glyph-icon icon-linecons-eye"></i>
-            <span>Kurikulum</span>
+            <span>Keuangan</span>
         </a>
         <div class="sidebar-submenu">
 
             <ul>
-                <li><a href="forms-elements.html" title="Form elements"><span>Form elements</span></a></li>
-                <li><a href="forms-validation.html" title="Form validation"><span>Form validation</span></a></li>
-                <li><a href="pickers.html" title="Pickers"><span>Pickers</span></a></li>
-                <li><a href="sliders.html" title="Sliders"><span>Sliders</span></a></li>
-                <li><a href="forms-wizard.html" title="Form wizards"><span>Form wizards</span></a></li>
-                <li><a href="forms-masks.html" title="Form input masks"><span>Form input masks</span></a></li>
-                <li><a href="image-crop.html" title="Image crop"><span>Image crop</span></a></li>
-                <li><a href="dropzone-uploader.html" title="Dropzone uploader"><span>Dropzone uploader</span></a></li>
-                <li><a href="multi-uploader.html" title="Multi uploader"><span>Multi uploader</span></a></li>
-                <li><a href="input-knobs.html" title="Input knobs"><span>Input knobs</span></a></li>
-                <li><a href="ckeditor.html" title="Ckeditor"><span>Ckeditor</span></a></li>
-                <li><a href="summernote.html" title="Summernote"><span>Summernote</span></a></li>
-                <li><a href="markdown.html" title="Markdown editor"><span>Markdown editor</span></a></li>
-                <li><a href="inline-editor.html" title="Inline editor"><span>Inline editor</span></a></li>
+                <li><a href="<?php echo base_url();?>index.php/maintenance" title="Form elements"><span>Uang Masuk</span></a></li>
+                <li><a href="<?php echo base_url();?>index.php/maintenance" title="Form validation"><span>Uang Keluar</span></a></li>
             </ul>
 
         </div><!-- .sidebar-submenu -->
@@ -114,7 +99,7 @@
     
     <li class="header"><span>Laporan</span></li>
     <li>
-        <a href="#" title="Pages">
+        <a href="<?php echo base_url();?>index.php/maintenance" title="Pages">
             <i class="glyph-icon icon-linecons-fire"></i>
             <span>Absensi Siswa</span>
            

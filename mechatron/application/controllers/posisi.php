@@ -10,7 +10,7 @@ class Posisi extends CI_Controller {
 	{
         $this->load->view('header');
         $this->load->view('menu');
-        $this->load->view('posisiView');
+        $this->load->view('posisi/posisiView');
         $this->load->view('footer');
     }
     

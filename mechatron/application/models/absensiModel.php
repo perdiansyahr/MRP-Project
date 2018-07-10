@@ -1,10 +1,10 @@
 <?php
-Class KaryawanModel extends CI_Model
+Class absensiModel extends CI_Model
 {
-    var $table = 'karyawan';
-    var $column_order = array('nama_karyawan',null); //set column field database for datatable orderable
-    var $column_search = array('nama_karyawan'); //set column field database for datatable searchable just firstname , lastname , address are searchable
-    var $order = array('id_karyawan' => 'desc'); // default order 
+    var $table = 'absensi';
+    var $column_order = array('tanggal',null); //set column field database for datatable orderable
+    var $column_search = array('tanggal'); //set column field database for datatable searchable just firstname , lastname , address are searchable
+    var $order = array('id_absensi' => 'desc'); // default order 
 
     public function __construct()
 	{
@@ -73,10 +73,10 @@ private function _get_datatables_query()
         return $this->db->count_all_results();
     }
 
-    public function get_by_id($id_karyawan)
+    public function get_by_id($id_absensi)
     {
         $this->db->from($this->table);
-        $this->db->where('id_karyawan',$id_karyawan);
+        $this->db->where('id_absensi',$id_absensi);
         $query = $this->db->get();
 
         return $query->row();
@@ -94,18 +94,18 @@ private function _get_datatables_query()
         return $this->db->affected_rows();
     }
 
-    public function delete_by_id($id_karyawan)
+    public function delete_by_id($id_absensi)
     {
-        $this->db->where('id_karyawan', $id_karyawan);
+        $this->db->where('id_absensi', $id_absensi);
         $this->db->delete($this->table);
     }
 
 
 /*
-    public function totalKaryawan()
+    public function totalabsensi()
     {
         $this->db->select('count(*) AS jumlah');
-        $this->db->from('karyawan');
+        $this->db->from('absensi');
         //return $this->db->get()->result();
         $query = $this->db->get();
         return $query->row()->jumlah;
